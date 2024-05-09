@@ -1,0 +1,20 @@
+*{
+font-size: 1.3rem;
+}
+
+
+.call-btn{
+  border-radius: 20px;
+  font-size: 1.5rem;
+
+  background-color: #4aa5ba;
+  border: 0;
+}
+.call-btn:hover{
+  background-color:#4aa5ba ;
+  scale: 103%;
+}
+.nav-link:focus
+{
+color:#09A2AB ;
+}
