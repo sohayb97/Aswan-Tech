@@ -9,9 +9,9 @@ font-size: 1.3rem;
 
   background-color: #4aa5ba;
   border: 0;
+
 }
 .call-btn:hover{
-  background-color:#4aa5ba ;
   scale: 103%;
 }
 .nav-link:focus
