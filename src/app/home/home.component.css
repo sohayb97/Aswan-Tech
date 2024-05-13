@@ -162,6 +162,7 @@ font-size: 2.7rem;
 }
 .sec-1{
   height: auto !important;
+  margin-top: 0 !important;
 }
 .sec-2{
   height: auto !important;
