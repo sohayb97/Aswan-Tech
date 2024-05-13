@@ -149,3 +149,58 @@ font-size: 2.7rem;
 .call-btn:hover{
   background-color:#4aa5ba ;
 }
+
+@media screen and (max-width:550px) {
+
+  .content{
+    margin-bottom:50px;
+  }
+
+.card-container{
+  display: flex;
+  flex-direction: column !important;
+}
+.sec-1{
+  height: auto !important;
+}
+.sec-2{
+  height: auto !important;
+}
+.sec-3{
+  height: auto !important;
+}
+.sec-4{
+  height: auto !important;
+}
+.main-prgraph{
+  font-size: 20px !important;
+  margin-bottom: 0px !important;
+}
+.sub-main-pragraph{
+  font-size: 15px !important;
+  margin-bottom: 10px !important;
+}
+.animated_border_radius{
+  width: 320px !important;
+}
+.content{
+  display: flex;
+  flex-direction: column-reverse !important;
+}
+.call-svg{
+  display: none;
+}
+form{
+  width: 320px;
+}
+
+.form-control{
+  width: 320px;
+}
+.reason{
+  border-bottom: 0 !important;
+}
+.border-bottom{
+  border: 0 !important;
+}
+}

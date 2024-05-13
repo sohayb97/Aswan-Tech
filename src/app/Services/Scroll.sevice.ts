@@ -1,17 +1,15 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ScrollService {
-  private section = new BehaviorSubject<string>('');
+  private triggerSectionScroll = new Subject<void>();
 
-  sectionObservable = this.section.asObservable();
+  scrollTriggered$ = this.triggerSectionScroll.asObservable();
 
-  constructor() { }
-
-  scrollToSection(section: string) {
-    this.section.next(section);
+  triggerScrollToSection() {
+    this.triggerSectionScroll.next();
   }
 }

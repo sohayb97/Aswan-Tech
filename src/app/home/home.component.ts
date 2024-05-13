@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { MoveDirection, ClickMode, HoverMode, OutMode, Container, Engine } from "tsparticles-engine";
 import { loadSlim } from "tsparticles-slim";
 import { ScrollService } from '../Services/Scroll.sevice';
+import { HtmlTagDefinition } from '@angular/compiler';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,6 +12,7 @@ import { ScrollService } from '../Services/Scroll.sevice';
 })
 export class HomeComponent {
 
+  
 
   id = "tsparticles";
   particlesOptions = {
@@ -82,6 +84,7 @@ export class HomeComponent {
       },
       detectRetina: true,
   };
+
 
   particlesLoaded(container: Container): void {
       console.log(container);
