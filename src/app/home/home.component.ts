@@ -12,7 +12,13 @@ import { HtmlTagDefinition } from '@angular/compiler';
 })
 export class HomeComponent {
 
-  
+  @ViewChild('content') content?: ElementRef<HTMLDivElement>;
+
+
+  scrollToElement(): void {
+    this.content?.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
 
   id = "tsparticles";
   particlesOptions = {

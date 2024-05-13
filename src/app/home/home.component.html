@@ -5,7 +5,7 @@
      <div class="d-flex flex-column justify-content-center ">
           <p class="main-prgraph  text-center">شركة برمجيات توفر لك تصميم مواقع وتصميم تطبيقات لتحقيق أهداف مشروعك</p>
           <span class="sub-main-pragraph text-center mt-2 mb-5 fs-4 text-white">لا تتردد في الحصول علي خدماتنا </span>
-          <button class="hero-btn mx-auto">
+          <button class="hero-btn mx-auto" (click)="scrollToElement()">
 
             <svg width="34" height="34" viewBox="0 0 74 74" fill="none" >
                 <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
@@ -127,7 +127,7 @@
   </div>
 </section>
 
-<section  class="sec-4 py-5">
+<section #content class="sec-4 py-5">
   <h1 class="title text-center mb-4 ">إتصل بنا</h1>
     <div class="container aa d-flex gap-5 justify-content-center align-items-center py-4">
 
